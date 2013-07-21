@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<flexLibProperties includeAllClasses="true" useMultiPlatformConfig="false" version="3">
+  <includeClasses>
+    <classEntry path="org.hailong.vFlex.ITask"/>
+    <classEntry path="org.hailong.vFlex.IContext"/>
+    <classEntry path="org.hailong.vFlex.IServiceContext"/>
+    <classEntry path="org.hailong.vFlex.IService"/>
+    <classEntry path="org.hailong.vFlex.IServiceContainer"/>
+    <classEntry path="org.hailong.vFlex.Task"/>
+    <classEntry path="org.hailong.vFlex.ServiceContext"/>
+    <classEntry path="org.hailong.vFlex.ServiceContainer"/>
+    <classEntry path="org.hailong.vFlex.Service"/>
+    <classEntry path="org.hailong.vFlex.tasks.HttpTask"/>
+    <classEntry path="org.hailong.vFlex.tasks.IHttpTask"/>
+    <classEntry path="org.hailong.vFlex.services.HttpService"/>
+    <classEntry path="org.hailong.vFlex.services.HttpLoader"/>
+    <classEntry path="org.hailong.vFlex.ui.IUIContext"/>
+    <classEntry path="org.hailong.vFlex.ui.UIShell"/>
+    <classEntry path="org.hailong.vFlex.ui.UIViewController"/>
+    <classEntry path="org.hailong.vFlex.ui.IUIViewController"/>
+    <classEntry path="org.hailong.vFlex.URL"/>
+    <classEntry path="org.hailong.vFlex.ui.UINavigationController"/>
+    <classEntry path="org.hailong.vFlex.ui.IUIAction"/>
+    <classEntry path="org.hailong.vFlex.ui.UIAction"/>
+    <classEntry path="org.hailong.vFlex.ui.UIButton"/>
+    <classEntry path="org.hailong.vFlex.DataObject"/>
+    <classEntry path="org.hailong.vFlex.ui.UITabBarController"/>
+    <classEntry path="org.hailong.vFlex.ui.UITabButton"/>
+  </includeClasses>
+  <includeResources/>
+  <namespaceManifests/>
+</flexLibProperties>
