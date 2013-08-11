@@ -6,5 +6,10 @@ package org.hailong.vFlex.ui
 	public interface IUIContext extends IServiceContext
 	{
 		function getController(url:URL,basePath:String):IUIViewController;
+		
+		function focusValue(key:String):Object;
+		
+		function setFocusValue(key:String,value:Object):void;
+		
 	}
 }

@@ -10,6 +10,7 @@ package org.hailong.vFlex.ui
 	{
 		private var _config:Object;
 		private var _rootViewController:IUIViewController;
+		private var _focusValues:Object;
 		
 		public function UIShell(config:Object)
 		{
@@ -70,5 +71,18 @@ package org.hailong.vFlex.ui
 			return _config;
 		}
 		 
+		public function focusValue(key:String):Object{
+			if(_focusValues){
+				return _focusValues[key];
+			}
+			return null;
+		}
+		
+		public function setFocusValue(key:String,value:Object):void{
+			if(!_focusValues){
+				_focusValues = {};
+			}
+			_focusValues[key] = value;
+		}
 	}
 }
