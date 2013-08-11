@@ -2,8 +2,6 @@ package org.hailong.vFlex.ui
 {
 	
 	import flash.events.Event;
-	
-	import spark.components.Group;
 	import spark.components.SkinnableContainer;
 	
 	import org.hailong.vFlex.URL;

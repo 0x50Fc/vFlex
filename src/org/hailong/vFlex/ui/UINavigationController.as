@@ -312,16 +312,20 @@ package org.hailong.vFlex.ui
 					basePath += controller.alias + "/";
 				}
 				
+				var queryValues:Object = url.queryValues;
+				
+				var animated:Boolean = queryValues == null || queryValues["animated"] == null || queryValues["animated"] == "true";
+				
 				var alias:String = url.firstPathComponent(basePath);
 				
 				if(alias){
 					var viewController:IUIViewController = context.getController(url,basePath);
 					if(viewController){
-						pushViewController(viewController,true);
+						pushViewController(viewController,animated);
 					}
 				}
 				else{
-					popViewController(true);
+					popViewController(animated);
 				}
 
 				return true;
